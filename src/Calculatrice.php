@@ -26,7 +26,7 @@ class Calculatrice
     public function diviser(float $a, float $b): float
     {
         if ($b == 0) {
-            throw new Exception("Division par zero impossible.");
+            throw new Exception("Erreur : le diviseur ne peut pas etre zero.");
         }
         return $a / $b;
     }
